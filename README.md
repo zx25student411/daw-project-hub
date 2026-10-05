@@ -26,3 +26,13 @@ Para publicar esta rama en GitHub, utiliza:
 
 ```bash
 git push -u origin docs/instrucciones
+
+## Fetch y Pull
+
+`git fetch` descarga la información y los cambios del repositorio remoto, pero no los integra automáticamente en la rama local.
+
+`git pull` descarga los cambios del repositorio remoto y los integra en la rama local.
+
+Fetch permite revisar los cambios antes de integrarlos porque actualiza las referencias remotas sin modificar directamente nuestra rama de trabajo.
+
+Pull combina la descarga de cambios con su integración posterior en la rama local.
