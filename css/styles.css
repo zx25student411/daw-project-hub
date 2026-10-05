@@ -35,3 +35,27 @@ footer {
     background-color: #222;
     color: white;
 }
+
+.desarrollo-web {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin: 25px 0;
+    padding: 15px;
+    border-left: 5px solid #3498db;
+}
+
+.despliegue {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin: 25px 0;
+    padding: 15px;
+    border-left: 5px solid #2ecc71;
+}
+
+.colaboracion {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin: 25px 0;
+    padding: 15px;
+    border-left: 5px solid #e67e22;
+}
