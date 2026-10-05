@@ -1,16 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #222;
 }
 
 header {
+    padding: 40px 20px;
     text-align: center;
+    background-color: #222;
+    color: white;
 }
 
 main {
+    width: 90%;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+}
+
+main h2 {
+    text-align: center;
 }
 
 footer {
+    padding: 20px;
     text-align: center;
+    background-color: #222;
+    color: white;
 }
